@@ -1,4 +1,11 @@
 {
   "name": "yarn-workspaces-monorepo",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
 }
