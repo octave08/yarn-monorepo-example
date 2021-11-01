@@ -9,6 +9,10 @@
       "path": "..\\packages\\eslint-config-react"
     },
     {
+      "name": "🚀 @octave08/my-app",
+      "path": "..\\packages\\my-app"
+    },
+    {
       "name": "📦 @octave08/my-ui",
       "path": "..\\packages\\my-ui"
     }
