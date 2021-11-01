@@ -1,7 +1,7 @@
 {
   "name": "@octave08/eslint-config-react",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.0",
   "author": "GYUJEONG HWANG <octave08b@gmail.com>",
   "main": "index.js",
   "license": "MIT",
