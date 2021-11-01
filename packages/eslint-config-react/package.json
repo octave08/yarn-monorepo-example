@@ -1,0 +1,23 @@
+{
+  "name": "@octave08/eslint-config-react",
+  "private": true,
+  "version": "1.0.3",
+  "author": "GYUJEONG HWANG <octave08b@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-jest": "^25.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
