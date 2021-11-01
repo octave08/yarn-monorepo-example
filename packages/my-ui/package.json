@@ -7,15 +7,25 @@
   "source": "lib/index.ts",
   "scripts": {
     "build": "microbundle --jsx React.createElement",
-    "dev": "microbundle watch --jsx React.createElement"
+    "dev": "microbundle watch --jsx React.createElement",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@mdx-js/react": "^1.6.22",
     "@octave08/eslint-config-react": "workspace:*",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-docs": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
     "@types/react": "^17.0.33",
+    "babel-loader": "^8.2.3",
     "microbundle": "^0.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
